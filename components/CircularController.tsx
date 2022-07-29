@@ -1,6 +1,6 @@
 import React from 'react';
 import { Dimensions, StyleSheet, Text, TextStyle, View, ViewStyle } from 'react-native';
-import Animated, { AnimateStyle, Extrapolate, interpolate, runOnJS, useAnimatedProps, useAnimatedReaction, useAnimatedStyle, useDerivedValue, useSharedValue, withSpring } from 'react-native-reanimated';
+import Animated, { useAnimatedProps, useAnimatedReaction, useDerivedValue, useSharedValue, withSpring } from 'react-native-reanimated';
 import { between, ReText, Vector } from 'react-native-redash';
 import Svg, { Circle, G, Path } from 'react-native-svg';
 import { colors } from '../utils/colors';
